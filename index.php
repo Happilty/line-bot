@@ -9,9 +9,9 @@
 $channelSecret = $_ENV['CHANNEL_SECRET'];
 $channelToken  = $_ENV['CHANNEL_ACCESS_TOKEN'];
 $openrouterKey = $_ENV['OPENROUTER_API_KEY'];
-echo $channelSecret;
-echo $channelToken;
-echo $openrouterKey;
+// echo $channelSecret;
+// echo $channelToken;
+// echo $openrouterKey;
 $input = file_get_contents('php://input');
 $events = json_decode($input, true);
 
